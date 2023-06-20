@@ -1,0 +1,64 @@
+/*Punto 9*/
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+table,
+td {
+    border: 2px solid black;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+table {
+    background-color: yellow;
+    border-style: dotted;
+    border-bottom-color: red;
+}
+tr {
+    background-color: yellow;
+    border-bottom-style: hidden;
+}
+td {
+    background-color: yellow;
+    border-style: dotted;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-left-style: none;
+}
+.p9_edad {
+    color: red;
+    padding-right: 170px;
+    padding-left: 95px;
+}
+.p9_peso {
+    color: red;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.p9_40 {
+    border-right-style: dotted;
+    padding-right: 555px;
+}
+.p9_16 {
+    border-right-style: dotted;
+}
+/*pie de página*/
+.nombre {
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border: 10px double rgb(0, 0, 0);
+    margin-top: 480px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+    background-color: rgb(245, 205, 132);
+}

@@ -1,0 +1,44 @@
+/*Puntos 7 y 8*/
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.p7_nav {
+    background-color: rgb(208, 152, 219);
+    margin: 45px;
+    border-radius: 3px;
+    padding: 15px;
+}
+.p7_nav ul {
+    display: inline-flex;
+}
+.p7_nav li {
+    padding: 12px;
+    list-style: none;
+}
+.p7_nav li:hover{
+    background-color: blue;
+    border-radius: 5px;
+}
+.p7_nav a{
+    color: white;
+    font-size: 22px;
+}
+/*pie de página*/
+.nombre {
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border: 10px double rgba(114, 5, 216, 0.712);
+    margin-top: 480px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+    background-color: rgba(114, 75, 221, 0.712);
+}

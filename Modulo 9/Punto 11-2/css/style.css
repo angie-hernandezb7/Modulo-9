@@ -1,0 +1,77 @@
+/*Punto 11 Animación 2*/
+.animacion_2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: blue;
+        left: 0px;
+        top: 200px;
+    }
+
+    50% {
+        background-color: green;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+/*pie de página*/
+.nombre {
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    border: 10px double rgb(0, 0, 0);
+    margin-top: 400px;
+    padding-top: 10px;
+    position: relative;
+    animation-name: name;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes name {
+    0% {
+        background-color: rgb(22, 202, 226);
+        left: 0px;
+    }
+
+    50% {
+        background-color: rgb(26, 15, 184);
+        left: 200px;
+    }
+
+    100% {
+        background-color: rgb(226, 39, 233);
+        left: 0px;
+        color: white
+    }
+}

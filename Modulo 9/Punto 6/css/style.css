@@ -1,0 +1,69 @@
+/*Punto 6*/
+*{border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman';
+}
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header{
+    text-align: left;
+    margin-left: 85px;
+}
+
+h1{
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+h2{
+    text-align: left;
+    font-size: 26px;
+}
+
+#title_1{
+    color: yellow; 
+    margin-bottom: 15px;   
+}
+.falabella:hover{
+    background-color: rgb(40, 83, 226);
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 1200px;
+}
+
+#title_2{
+    color: rgb(180, 1, 180);
+}
+.as:hover{
+    background-color: rgb(40, 83, 226);
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 1200px;
+}
+
+.p6_yellow_ul{
+    text-decoration: underline;
+    color: yellow;
+}
+.p6_purple_ul{
+    text-decoration: underline;
+    color: rgb(180, 1, 180);
+}
+
+/*pie de página*/
+.nombre {
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border: 10px double rgba(114, 5, 216, 0.712);
+    margin-top: 480px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+    background-color: rgba(114, 75, 221, 0.712);
+    }
